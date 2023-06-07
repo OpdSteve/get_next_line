@@ -1,17 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_tools.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: eleon-go <eleon-go@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/25 18:31:54 by eleon-go          #+#    #+#             */
-/*   Updated: 2023/05/25 18:32:15 by eleon-go         ###   ########.fr       */
+/*   Updated: 2023/06/06 12:32:30 by eleon-go         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
+/*To know the length of the pointer s*/
 size_t	ft_strlen(const char *s)
 {	
 	size_t	i;
@@ -24,6 +25,7 @@ size_t	ft_strlen(const char *s)
 	return (i);
 }
 
+/*count introduce the lenght and size que weight, if */
 char	*ft_calloc(size_t count, size_t size)
 {
 	char	*c;
